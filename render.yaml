@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: awesome-landing
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    branch: main
+    buildCommand: ''
+    startCommand: ''
