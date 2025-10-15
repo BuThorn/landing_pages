@@ -1,0 +1,11 @@
+{
+  "name": "awesome-landing",
+  "version": "1.0.0",
+  "description": "Responsive landing page (static) with simple PHP form handler",
+  "private": true,
+  "scripts": {
+    "start:static": "npx http-server -c-1 ./ -p 8080",
+    "start:php": "php -S localhost:8080 -t ./"
+  },
+  "devDependencies": {}
+}
