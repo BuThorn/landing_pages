@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Awesome Product — Landing Page</title>
+    <meta name="description" content="Launch your idea with Awesome Product — simple, fast, reliable." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/favicon.png" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="logo" href="#">
+          <img src="assets/logo.svg" alt="Logo" />
+          <span>Awesome</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#testimonials">Testimonials</a>
+          <a class="btn btn-primary" href="#contact">Get started</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero-grid">
+          <div>
+            <h1>Build faster. Ship happier.</h1>
+            <p class="lead">All the tools you need to launch a product people love. Clean UI, fast setup, and enterprise-ready reliability.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary large" href="#contact">Start free trial</a>
+              <a class="btn btn-ghost" href="#features">See features</a>
+            </div>
+            <ul class="stats">
+              <li><strong>10k+</strong><span>users</span></li>
+              <li><strong>99.9%</strong><span>uptime</span></li>
+              <li><strong>24/7</strong><span>support</span></li>
+            </ul>
+          </div>
+          <div class="hero-media">
+            <img src="assets/hero.png" alt="Product screenshot" />
+          </div>
+        </div>
+      </section>
+
+      <section class="features container" id="features">
+        <h2>Powerful features that scale</h2>
+        <p class="section-sub">Everything you need to build, launch, and grow.</p>
+        <div class="feature-grid">
+          <article class="feature">
+            <img src="assets/feature-1.svg" alt="Fast setup" />
+            <h3>Fast setup</h3>
+            <p>Get started in minutes with sensible defaults and production-ready tooling.</p>
+          </article>
+          <article class="feature">
+            <img src="assets/feature-2.svg" alt="Secure" />
+            <h3>Secure by default</h3>
+            <p>Industry-standard encryption, automatic backups, and role-based access controls.</p>
+          </article>
+          <article class="feature">
+            <img src="assets/feature-3.svg" alt="Scale" />
+            <h3>Scale with confidence</h3>
+            <p>From startups to enterprises — scale when you need it without surprises.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="pricing container" id="pricing">
+        <h2>Pricing</h2>
+        <p class="section-sub">Simple pricing. No surprises.</p>
+        <div class="pricing-grid">
+          <div class="plan">
+            <h3>Starter</h3>
+            <p class="price">Free</p>
+            <ul>
+              <li>Up to 3 projects</li>
+              <li>Community support</li>
+            </ul>
+            <a class="btn" href="#contact">Get started</a>
+          </div>
+          <div class="plan popular">
+            <h3>Pro</h3>
+            <p class="price">$29/mo</p>
+            <ul>
+              <li>Unlimited projects</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Start trial</a>
+          </div>
+          <div class="plan">
+            <h3>Enterprise</h3>
+            <p class="price">Custom</p>
+            <ul>
+              <li>Dedicated account</li>
+              <li>SLA & onboarding</li>
+            </ul>
+            <a class="btn" href="#contact">Contact sales</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials container" id="testimonials">
+        <h2>What customers say</h2>
+        <div class="testimonials-grid">
+          <blockquote>
+            <p>"Awesome Product transformed how our team ships features. Support is incredible."</p>
+            <cite>— Sarah, CTO at Acme</cite>
+          </blockquote>
+          <blockquote>
+            <p>"The onboarding was painless — we were live in a day."</p>
+            <cite>— Carlos, Founder</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="contact container" id="contact">
+        <h2>Ready to get started?</h2>
+        <p class="section-sub">Start your free trial — no credit card required.</p>
+        <div class="contact-grid">
+          <form id="contactForm" action="submit.php" method="post">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button class="btn btn-primary" type="submit">Start free trial</button>
+            <p class="form-note" id="formNote" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-info">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <h4>Office</h4>
+            <p>123 Main St, Anytown</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Awesome — All rights reserved.</p>
+        <div class="social">
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
